@@ -8,7 +8,7 @@ Matlab and Python implementations can be found in the respective folders.
 To test the method, first download the data from 
 https://vision.maths.lth.se/drone_sound/
 
-Then run the script run_ljungbyhed_1_13.m in the matlab folder (first modify the data path in the script)
+Then run the script _run_ljungbyhed_1_13.m_ in the _matlab_ folder (first modify the data path in the script)
 If you use the code please cite
 
 @InProceedings{flood_2025_eusipco,
