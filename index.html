@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description"
         content="Inlier Maximization for Robust Direction-of-Arrival Estimation in Ad-hoc Microphone Networks.">
-  <meta name="keywords" content="radar-triangulation">
+  <meta name="keywords" content="doa-inlier-maximization">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Inlier Maximization for Robust Direction-of-Arrival Estimation in Ad-hoc Microphone Networks</title>
 
@@ -105,7 +105,7 @@
               <!-- PDF Link. -->
                <span class="link-block">
 
-                <a href="https://openaccess.thecvf.com/content/ICCV2025W/CroCoDL/papers/Oskarsson_Triangulation_of_3D_target_points_from_radar_range_and_bearing_ICCVW_2025_paper.pdf"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -116,7 +116,7 @@
 
               <!-- Poster Link. -->
                <span class="link-block">
-                <a href="https://vision.maths.lth.se/magnuso/radar_triangulation/radical_iccv_2025.pdf"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -147,7 +147,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/hamburgerlady/radar-triangulation"
+                <a href="https://github.com/gabrielleflood/doa-inlier-maximization"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -159,7 +159,7 @@
 
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://vision.maths.lth.se/magnuso/radar_triangulation/boreas_triangulation_dataset.zip"
+                <a href=""
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="far fa-images"></i>
@@ -183,7 +183,7 @@
         <img src="teaser_doa_inlier.png" alt="Teaser image of radar triangulation method" width="500">
     </div>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf"></span>  Our method for least squares 3D point triangulation. Top shows schematic overview of setup. Top right shows example triangulation from simulated data. Bottom shows triangulation result on the Boreas dataset with reprojections for some example frames in bottom left.
+        <span class="dnerf"></span>  Explanation of image
       </h2>
     </div>
   
@@ -199,24 +199,11 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          We propose a method for estimating the 3D position of a
-target point, given multiple measurements of it, using mm-
-wave radar data. Given azimuth headings and range es-
-timates from posed radar positions, we find the 3D posi-
-tion, using an approximate, but geometrically and statis-
-tically meaningful cost. The 3D position is found in an
-optimal way, using this approximate cost. By deriving the
-Lagrangian of the corresponding maximum likelihood and
-maximum a posteriori estimates, we show that we can find
-all local minima by solving an eigenvalue problem. The
-global optimum can then easily and efficiently be extracted
-from these solutions. We validate the method on synthetic
-data and test it on several real world datasets, and release
-public code
+          We present a robust method for estimating the direction-of-arrival of a target, given time-difference-of-arrival measurements. The method is based on a theoretic framework for optimal inlier maximization,  and we present efficient solvers that can be used in a polynomial time algorithm, with guaranteed global optimality. We especially investigate the problem where the data come from microphone recordings in an ad-hoc audio network. We show, on synthetic and real data, that our method is competitive in terms of both robustness and speed. 
         </div>
         <h2 class="title is-3">Acknowledgement</h2>
         <div class="content has-text-justified">
-          This work has been supported by the strategic research project ELLIIT.
+          This work was supported by the Czech Science Foundation (GACR) JUNIOR STAR, Grant No. 22-23183M, by the strategic research project ELLIIT, and partially supported by the Wallenberg AI, Autonomous Systems and Software Program (WASP) funded by the Knut and Alice Wallenberg Foundation. The authors are grateful to Erik Tegler for previous collaborations and valuable discussions leading up to this paper.
         </div>
       </div>
     </div>
@@ -243,12 +230,11 @@ public code
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-      @inproceedings{oskarsson2025triangulation,
+      @inproceedings{flood2026inlier,
         title={Triangulation of 3D target points from radar range and bearing data},
-        author={Oskarsson, Magnus},
-        booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-        pages={7255--7264},
-        year={2025}
+        author={Flood, Gabrielle and {\AA}str{\"o}m, Kalle and Oskarsson, Magnus},
+        booktitle={34th European Signal Processing Conference (EUSIPCO)},
+        year={2026}
       }
     </code></pre>
   </div>
