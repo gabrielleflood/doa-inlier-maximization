@@ -14,7 +14,7 @@ If you use the code please cite
 
 ```
 @InProceedings{flood_2025_eusipco,
-  author    = {Flood, Gabrielle and \r{A}str\"om, Kalle and Oskarsson, Magnus},
+  author    = {Flood, Gabrielle and {\AA}str{\"o}m, Kalle and Oskarsson, Magnus},
   title     = {Inlier Maximization for Robust Direction-of-Arrival Estimation in Ad-hoc Microphone Networks},
   booktitle = {Proceedings European Signal Processing Conference (EUSIPCO)},
   year      = {2026}
