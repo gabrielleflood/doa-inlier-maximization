@@ -13,7 +13,7 @@ Then run the script _run_ljungbyhed_1_13.m_ in the _matlab_ folder (first modify
 If you use the code please cite
 
 ```
-@InProceedings{flood_2025_eusipco,
+@InProceedings{flood_2026_eusipco,
   author    = {Flood, Gabrielle and {\AA}str{\"o}m, Kalle and Oskarsson, Magnus},
   title     = {Inlier Maximization for Robust Direction-of-Arrival Estimation in Ad-hoc Microphone Networks},
   booktitle = {Proceedings European Signal Processing Conference (EUSIPCO)},
