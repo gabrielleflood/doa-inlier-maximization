@@ -1,7 +1,7 @@
 # doa-inlier-maximization
 
 This repository contains the code described in the paper "Inlier Maximization for Robust Direction-of-Arrival
-Estimation in Ad-hoc Microphone Networks" 
+Estimation in Ad-hoc Microphone Networks". For more information, see our project page https://gabrielleflood.github.io/doa-inlier-maximization/
 
 Matlab and Python implementations can be found in the respective folders.
 
